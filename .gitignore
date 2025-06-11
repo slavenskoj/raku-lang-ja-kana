@@ -5,3 +5,5 @@
 .precomp
 lib/.precomp
 
+lib/.DS_Store
+lib/Lang/.DS_Store

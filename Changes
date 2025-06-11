@@ -1,0 +1,16 @@
+Revision history for Lang::JA::Kana
+
+1.0.0  2025-06-11
+    - Initial release
+    - Complete modern Hiragana/Katakana conversion support
+    - Historical and obsolete kana support (ゐゑ, ゔ, ゟ)
+    - Comprehensive Hentaigana (historical variant) support with multiple readings
+    - Modern extensions for foreign sounds (ファ, ティ, ウィ, etc.)
+    - Half-width Katakana support (complete Unicode range U+FF65-U+FF9F)
+    - Half-width voiced and semi-voiced combinations (ｶﾞ→ガ, ﾊﾟ→パ)
+    - Half-width punctuation and sound mark conversion
+    - Circled Katakana support (㋐㋑㋒ ↔ アイウ)
+    - Square Katakana support for technical terms (㌔㌦ ↔ キロドル)
+    - Sound mark splitting and Hentaigana conversion with dakuten/handakuten handling
+    - Intuitive Hiragana/Katakana prefix operators
+    - Mixed text handling (only converts kana, leaves other text unchanged)

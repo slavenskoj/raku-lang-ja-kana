@@ -1,0 +1,36 @@
+{
+  "name": "Lang::JA::Kana",
+  "description": "A comprehensive Raku module for converting between Hiragana and Katakana, including support for historical and obsolete kana characters",
+  "version": "1.0.0",
+  "perl": "6.c",
+  "authors": [
+    "Danslav Slavenskoj"
+  ],
+  "auth": "zef:slavenskoj",
+  "license": "Artistic-2.0",
+  "depends": [],
+  "test-depends": [],
+  "build-depends": [],
+  "provides": {
+    "Lang::JA::Kana": "lib/Lang/JA/Kana.rakumod"
+  },
+  "resources": [],
+  "tags": [
+    "japanese",
+    "kana",
+    "hiragana",
+    "katakana",
+    "unicode",
+    "text-processing",
+    "internationalization",
+    "i18n",
+    "historical-scripts",
+    "hentaigana"
+  ],
+  "source-url": "https://github.com/slavenskoj/raku-lang-ja-kana.git",
+  "support": {
+    "source": "https://github.com/slavenskoj/raku-lang-ja-kana",
+    "issues": "https://github.com/slavenskoj/raku-lang-ja-kana/issues"
+  },
+  "meta-version": "0"
+}
