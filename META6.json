@@ -1,7 +1,7 @@
 {
   "name": "Lang::JA::Kana",
-  "description": "A comprehensive Raku module for converting between Hiragana and Katakana, including support for historical and obsolete kana characters",
-  "version": "1.0.0",
+  "description": "Japanese Hiragana and Katakana conversion utilities",
+  "version": "1.1.0",
   "perl": "6.c",
   "authors": [
     "Danslav Slavenskoj"

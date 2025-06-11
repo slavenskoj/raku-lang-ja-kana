@@ -1,5 +1,11 @@
 Revision history for Lang::JA::Kana
 
+1.1.0  2025-06-11
+    - Added Romaji conversion module
+    - Added Hangul conversion module
+    - Added Cyrillic conversion module
+    - Improved multilingual documentation
+
 1.0.0  2025-06-11
     - Initial release
     - Complete modern Hiragana/Katakana conversion support

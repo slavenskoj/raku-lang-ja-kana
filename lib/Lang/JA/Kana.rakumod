@@ -44,6 +44,37 @@ This library is free software; you can redistribute it and/or modify it under th
 
 unit module Lang::JA::Kana;
 
+use Lang::JA::Kana::Romaji;
+use Lang::JA::Kana::Kuriru-moji;
+use Lang::JA::Kana::Hangul;
+
+# Re-export romaji conversion function with half-width conversion
+our sub kana-to-romaji(Str $text, Str :$system = 'hepburn') is export {
+    # First convert half-width katakana to full-width
+    my $converted-text = to-fullwidth-katakana($text);
+    
+    # Convert to romaji
+    return romaji($converted-text, :$system);
+}
+
+# Re-export kuriru-moji conversion function with half-width conversion
+our sub kana-to-kuriru-moji(Str $text, Str :$system = 'polivanov') is export {
+    # First convert half-width katakana to full-width
+    my $converted-text = to-fullwidth-katakana($text);
+    
+    # Convert to Cyrillic
+    return to-kuriru-moji($converted-text, :$system);
+}
+
+# Re-export hangul conversion function with half-width conversion
+our sub kana-to-hangul(Str $text, Str :$system = 'standard') is export {
+    # First convert half-width katakana to full-width
+    my $converted-text = to-fullwidth-katakana($text);
+    
+    # Convert to Hangul
+    return to-hangul($converted-text, :$system);
+}
+
 my constant %hiragana-to-katakana = (
     # Modern Hiragana
     'あ' => 'ア', 'い' => 'イ', 'う' => 'ウ', 'え' => 'エ', 'お' => 'オ',

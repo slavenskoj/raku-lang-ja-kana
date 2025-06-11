@@ -5,5 +5,9 @@
 .precomp
 lib/.precomp
 
+.DS_Store
 lib/.DS_Store
 lib/Lang/.DS_Store
+
+
+.claude/settings.local.json
