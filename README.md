@@ -584,14 +584,6 @@ We apologize for any errors and welcome suggestions for improvements.
 - Historical kana usage studies
 - Unicode Consortium technical reports
 
-## Version History
-
-- **v1.0.0**: Initial release with basic Hiragana/Katakana conversion
-- **v1.1.0**: Added half-width katakana support
-- **v1.2.0**: Comprehensive Hentaigana support
-- **v1.3.0**: Circled and squared katakana utilities
-- **v1.4.0**: Cross-script integration with auto half-width conversion
-
 ## License
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.

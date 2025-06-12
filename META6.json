@@ -2,7 +2,7 @@
   "perl": "6.c",
   "name": "Lang::JA::Kana",
   "auth": "zef:slavenskoj",
-  "version": "1.1.5",
+  "version": "1.2.0",
   "description": "Japanese Hiragana and Katakana conversion utilities",
   "authors": ["Danslav Slavenskoj"],
   "license": "Artistic-2.0",

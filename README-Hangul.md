@@ -382,12 +382,6 @@ We apologize for any errors and welcome suggestions for improvements.
 - Unicode Standard Korean syllable block
 - Japanese Industrial Standards (JIS) kana specifications
 
-## Version History
-
-- **v1.0.0**: Initial release with four conversion systems
-- **v1.1.0**: Enhanced sokuon processing and academic system improvements
-- **v1.2.0**: Added comprehensive character support and system aliases
-
 ## License
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.

@@ -434,8 +434,6 @@ Contributions are welcome. Please visit the project repository at:
 
 We apologize for any errors and welcome suggestions for improvements.
 
-
-
 ## License
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
