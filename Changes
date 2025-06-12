@@ -1,9 +1,20 @@
 Revision history for Lang::JA::Kana
 
+1.1.5  2025-06-12
+    - Minor updates and maintenance
+
+1.1.4  2025-06-12
+    - Minor updates and maintenance
+
+1.1.3  2025-06-12
+    - Updated version to 1.1.3
+    - Minor updates and maintenance
+
 1.1.0  2025-06-11
     - Added Romaji conversion module
-    - Added Hangul conversion module
     - Added Cyrillic conversion module
+    - Enhanced Hangul conversion with improved consonant handling
+    - Added support for complex consonant clusters in Korean
     - Improved multilingual documentation
 
 1.0.0  2025-06-11

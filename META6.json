@@ -1,19 +1,20 @@
 {
-  "name": "Lang::JA::Kana",
-  "description": "Japanese Hiragana and Katakana conversion utilities",
-  "version": "1.1.0",
   "perl": "6.c",
-  "authors": [
-    "Danslav Slavenskoj"
-  ],
+  "name": "Lang::JA::Kana",
   "auth": "zef:slavenskoj",
+  "version": "1.1.5",
+  "description": "Japanese Hiragana and Katakana conversion utilities",
+  "authors": ["Danslav Slavenskoj"],
   "license": "Artistic-2.0",
-  "depends": [],
-  "test-depends": [],
-  "build-depends": [],
   "provides": {
-    "Lang::JA::Kana": "lib/Lang/JA/Kana.rakumod"
+    "Lang::JA::Kana": "lib/Lang/JA/Kana.rakumod",
+    "Lang::JA::Kana::Romaji": "lib/Lang/JA/Kana/Romaji.rakumod",
+    "Lang::JA::Kana::Hangul": "lib/Lang/JA/Kana/Hangul.rakumod",
+    "Lang::JA::Kana::Kuriru-moji": "lib/Lang/JA/Kana/Kuriru-moji.rakumod"
   },
+  "depends": [],
+  "build-depends": [],
+  "test-depends": ["Test"],
   "resources": [],
   "tags": [
     "japanese",
@@ -27,10 +28,6 @@
     "historical-scripts",
     "hentaigana"
   ],
-  "source-url": "https://github.com/slavenskoj/raku-lang-ja-kana.git",
-  "support": {
-    "source": "https://github.com/slavenskoj/raku-lang-ja-kana",
-    "issues": "https://github.com/slavenskoj/raku-lang-ja-kana/issues"
-  },
-  "meta-version": "0"
+  "api": "1",
+  "source-url": "https://github.com/slavenskoj/raku-lang-ja-kana.git"
 }
